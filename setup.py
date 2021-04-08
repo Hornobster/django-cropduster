@@ -24,7 +24,7 @@ setup(
         'six',
         'Pillow',
         'python-xmp-toolkit',
-        'django-generic-plus>=2.0.3',
+        'django-generic-plus @ git+https://github.com/theatlantic/django-generic-plus.git'
     ],
     include_package_data=True,
     classifiers=[
